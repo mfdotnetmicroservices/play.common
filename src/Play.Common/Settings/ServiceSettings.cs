@@ -6,5 +6,7 @@ namespace Play.Common.Settings
         public string Authority { get; init; }
 
         public string MessageBroker {get; init;}
+
+        public string KeyVaultName { get; init; }
     }
 }
